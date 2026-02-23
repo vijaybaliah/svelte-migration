@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [
+        "build/**",
+        ".svelte-kit/**",
+        "dist/**",
+        "package/**"
+      ]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "check": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    }
+  }
+}
